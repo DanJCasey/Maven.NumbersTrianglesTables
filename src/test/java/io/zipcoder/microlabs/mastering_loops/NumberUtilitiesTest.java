@@ -212,7 +212,7 @@ public class NumberUtilitiesTest {
         int step = 5;
 
         // : When
-        String actual = NumberUtilities.getSquareNumbers(start, stop);
+        String actual = NumberUtilities.getSquareNumbers(start, stop, step);
 
         // : Then
         Assert.assertEquals(expected, actual);

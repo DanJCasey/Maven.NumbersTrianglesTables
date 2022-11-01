@@ -24,9 +24,9 @@ public class NumberUtilities {
     }
 
 
-    public static String getSquareNumbers(int start, int stop) {
+    public static String getSquareNumbers(int start, int stop, int step) {
         String result = "";
-        for (int i = start; i < stop; i++) {
+        for (int i = start; i < stop; i += step) {
             result = result + (int) Math.pow(i, 2);
         }
         return result;
