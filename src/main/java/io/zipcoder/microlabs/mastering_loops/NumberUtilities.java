@@ -5,8 +5,8 @@ public class NumberUtilities {
     public static String getEvenNumbers(int start, int stop) {
         String result = "";
         int j = start % 2;
-        if (j != 0) ;
-
+        if(j !=0)
+            start++;
         for (int i = start; i < stop; i += 2) {
             result += i;
         }
